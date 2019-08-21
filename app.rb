@@ -12,8 +12,7 @@ class App < Sinatra::Base
   end
   
   post '/checkout' do
-    puts params
-    erb :show
+      erb :show
   end
 
 
